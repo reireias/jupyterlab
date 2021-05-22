@@ -1,6 +1,8 @@
 FROM python:3-buster
 
-RUN pip install jupyterlab
+RUN pip install \
+    jupyterlab \
+    jupyterlab_vim
 
 COPY .jupyter /root/.jupyter
 
