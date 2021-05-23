@@ -3,7 +3,6 @@ FROM python:3-buster
 RUN pip install \
     jupyterlab \
     jupyterlab_vim \
-    numpy \
     pandas \
     matplotlib
 
