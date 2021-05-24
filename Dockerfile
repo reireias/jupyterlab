@@ -5,6 +5,7 @@ RUN pip install \
     jupyterlab_vim \
     pandas \
     matplotlib
+RUN pip install numpy
 
 COPY .jupyter /root/.jupyter
 
